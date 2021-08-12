@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-details{
+    display: flex;
+    min-height: 100vh;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 97px;
+    padding-top: 95px;
+    border-radius: 30px;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%,13%);
+    
+}
+.image-sedan{
+    padding: 20px;
+}
+.image-suv{
+    padding:20px;
+}
+.image-luxury{
+    padding:20px;
+}
+h3{
+    text-transform:uppercase;
+    padding:20px;
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 40px;
+    padding: 25px 25px 25px 25px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    padding:20px;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 150px;
+}
+a{  
+       
+    padding:10px;
+    background-color: antiquewhite;
+    border-radius: 30px; 
+
+}
+.btn{
+    padding: 30px;
+    
+}
+a#btn-first {
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    
+    
+}
+a#btn-center {
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+}
+a#btn-last {
+    color: hsl(179, 100%,13%);
+    text-decoration: none;
+}
+@media screen and (max-width:375px)
+{
+   
+.container-details
+{
+display: flex;
+flex-direction: column;
+position: static;
+width: 100%;
+height: auto;
+padding: 0;
+}
+}
